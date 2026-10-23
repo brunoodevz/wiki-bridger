@@ -1,0 +1,99 @@
+:root {
+    /* FUNDOS */
+    --bg-primary: #17120E;
+    --bg-secondary: #241911;
+    --bg-tertiary: #332318;
+
+    /* PAPEL VELHO */
+    --paper: #D8BD8A;
+    --paper-light: #E8D5AD;
+    --paper-dark: #B99A66;
+
+    /* MARROM */
+    --brown-dark: #3B2417;
+    --brown: #654027;
+    --brown-light: #8B5A32;
+
+    /* LARANJA / FERRUGEM */
+    --orange: #C87532;
+    --orange-light: #E49A4F;
+    --rust: #9E4828;
+
+    /* PRETO */
+    --black: #0D0B09;
+    --black-soft: #1B1713;
+
+    /* TEXTOS */
+    --text-primary: #E8D5AD;
+    --text-secondary: #B9A17D;
+    --text-dark: #2B1C12;
+    --text-muted: #82705A;
+
+    /* BORDAS */
+    --border: #65472D;
+    --border-light: #987247;
+
+    /* INTERAÇÕES */
+    --accent: #C87532;
+    --accent-hover: #E49A4F;
+    --link: #D9954D;
+    --link-hover: #F0BC75;
+
+    /* EFEITOS */
+    --shadow: rgba(0, 0, 0, 0.45);
+    --overlay: rgba(13, 11, 9, 0.8);
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    text-decoration: none;
+    transition: 0.2 linear;   
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: var(--brown-light);
+}
+
+section {
+    padding: 3rem 2rem
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-principal {
+    width: 8rem;
+}
+
+.main-informacao {
+    display: flex
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    margin: 4rem;
+
+    background-color: var(--paper-dark);
+    border: var(--brown);
+    border-radius: 30px;
+}
+
+.container-cards {
+    display: flex;
+}
+
+.cards {
+    display: flex;
+}
