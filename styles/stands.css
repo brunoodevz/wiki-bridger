@@ -1,0 +1,49 @@
+:root {
+  --glass-black-bg: rgba(0, 0, 0, 0.8);
+  --glass-shadow:
+    inset 0 1px 2px rgba(255, 255, 255, 0.2), 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+  /* FUNDOS */
+  --bg-primary: #17120e;
+  --bg-secondary: #241911;
+  --bg-tertiary: #332318;
+
+  /* PAPEL VELHO */
+  --paper: #d8bd8a;
+  --paper-light: #e8d5ad;
+  --paper-dark: #b99a66;
+
+  /* MARROM */
+  --brown-dark: #3b2417;
+  --brown: #654027;
+  --brown-light: #8b5a32;
+
+  /* LARANJA / FERRUGEM */
+  --orange: #c87532;
+  --orange-light: #e49a4f;
+  --rust: #9e4828;
+
+  /* PRETO */
+  --black: #0d0b09;
+  --black-soft: #1b1713;
+
+  /* TEXTOS */
+  --text-primary: #e8d5ad;
+  --text-secondary: #b9a17d;
+  --text-dark: #2b1c12;
+  --text-muted: #82705a;
+
+  /* BORDAS */
+  --border: #65472d;
+  --border-light: #987247;
+
+  /* INTERAÇÕES */
+  --accent: #c87532;
+  --accent-hover: #e49a4f;
+  --link: #dd8930;
+  --link-hover: #ff9500;
+
+  /* EFEITOS */
+  --shadow: rgba(0, 0, 0, 0.45);
+  --overlay: rgba(13, 11, 9, 0.8);
+}
