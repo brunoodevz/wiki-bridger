@@ -1,0 +1,87 @@
+:root {
+  --glass-black-bg: rgba(0, 0, 0, 0.8);
+  --glass-shadow:
+    inset 0 1px 2px rgba(255, 255, 255, 0.2), 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+  /* FUNDOS */
+  --bg-primary: #17120e;
+  --bg-secondary: #241911;
+  --bg-tertiary: #332318;
+
+  /* PAPEL VELHO */
+  --paper: #d8bd8a;
+  --paper-light: #e8d5ad;
+  --paper-dark: #b99a66;
+
+  /* MARROM */
+  --brown-dark: #3b2417;
+  --brown: #654027;
+  --brown-light: #8b5a32;
+
+  /* LARANJA / FERRUGEM */
+  --orange: #c87532;
+  --orange-light: #e49a4f;
+  --rust: #9e4828;
+
+  /* PRETO */
+  --black: #0d0b09;
+  --black-soft: #1b1713;
+
+  /* TEXTOS */
+  --text-primary: #e8d5ad;
+  --text-secondary: #b9a17d;
+  --text-dark: #2b1c12;
+  --text-muted: #82705a;
+
+  /* BORDAS */
+  --border: #65472d;
+  --border-light: #987247;
+
+  /* INTERAÇÕES */
+  --accent: #c87532;
+  --accent-hover: #e49a4f;
+  --link: #dd8930;
+  --link-hover: #ff9500;
+
+  /* EFEITOS */
+  --shadow: rgba(0, 0, 0, 0.45);
+  --overlay: rgba(13, 11, 9, 0.8);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  background-color: var(--bg-primary); 
+
+  background-image:
+
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://w3.org id='bgNoise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23bgNoise)' opacity='0.25'/%3E%3C/svg%3E"),
+    
+  
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 100 100'%3E%3Cpath d='M-10 20 C 15 15, 35 45, 60 25 C 85 5, 115 25, 120 40 C 100 55, 75 25, 50 45 C 25 65, 0 35, -10 20 Z M-10 70 C 15 65, 35 95, 60 75 C 85 55, 115 75, 120 90 C 100 105, 75 75, 50 95 C 25 115, 0 85, -10 70 Z' fill='%233b2417'/%3E%3C/svg%3E");
+
+
+  background-blend-mode: overlay; 
+  
+  /* Comportamento das camadas */
+  background-attachment: fixed;
+  background-repeat: no-repeat, repeat;
+  background-size: cover, 260px;
+  
+  margin: 0;
+  min-height: 100vh;
+  color: var(--text-primary);
+}

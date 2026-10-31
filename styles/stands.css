@@ -47,3 +47,41 @@
   --shadow: rgba(0, 0, 0, 0.45);
   --overlay: rgba(13, 11, 9, 0.8);
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  background-color: var(--bg-primary); 
+
+  background-image:
+
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://w3.org id='bgNoise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23bgNoise)' opacity='0.25'/%3E%3C/svg%3E"),
+    
+  
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 100 100'%3E%3Cpath d='M-10 20 C 15 15, 35 45, 60 25 C 85 5, 115 25, 120 40 C 100 55, 75 25, 50 45 C 25 65, 0 35, -10 20 Z M-10 70 C 15 65, 35 95, 60 75 C 85 55, 115 75, 120 90 C 100 105, 75 75, 50 95 C 25 115, 0 85, -10 70 Z' fill='%233b2417'/%3E%3C/svg%3E");
+
+
+  background-blend-mode: overlay; 
+  
+  /* Comportamento das camadas */
+  background-attachment: fixed;
+  background-repeat: no-repeat, repeat;
+  background-size: cover, 260px;
+  
+  margin: 0;
+  min-height: 100vh;
+  color: var(--text-primary);
+}
